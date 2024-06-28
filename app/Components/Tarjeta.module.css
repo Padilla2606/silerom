@@ -1,0 +1,45 @@
+.Cajatarjeta{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    gap: 1.6rem;
+    padding: 1px 2rem;
+    flex-wrap: wrap;
+    
+}
+
+.Tarjeta{
+    display: flex;
+    flex-direction: column;
+    min-width: 180px;
+    width: calc( 100% / 3);
+    min-height: 20rem;
+    max-width: 400px;
+    padding: 2rem;
+    align-items: center;
+    text-align:center;
+    background-color: #242429;
+}
+
+.h1{
+    font-size: 30px;
+}
+
+.titulo{
+    font-size: 40px;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+@media screen and ( max-width: 1024px) {
+
+    .Tarjeta{
+        max-width: 100%;
+        width: 100%;
+    }
+    .titulo{
+        font-size: 30px;
+    }
+}
+
+ 

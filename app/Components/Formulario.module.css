@@ -1,0 +1,47 @@
+.Formulario{
+    padding: 3rem;
+    text-align: center;
+}
+
+.boxinput{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.cajitainput{
+    display: block;
+    width: 100%;
+    padding: 5px;
+}
+
+.input{
+    color: black;
+    width: 100%;
+}
+
+.h1{
+    font-size: 40px;
+    padding-bottom: 3rem;
+}
+
+.psubtitle{
+    padding-bottom: 2rem;
+}
+
+.inputarea{
+    width: 100%;
+    height: 4rem;
+    color: black;
+}
+
+.enviar{
+    height: 2.5rem;
+    width: 100%;
+    margin-top: 1rem;
+    background-color: #2e2e35;
+    border-radius: 0.7rem;
+}
+.enviar:hover{
+    background-color: #58585f;
+}

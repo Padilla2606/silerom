@@ -5,7 +5,7 @@ import Image from "next/image";
 
 
 
-export const Tarjeta = (props)=>{
+export const Tarjeta = (props:any)=>{
     return(
         <div className={styles.Tarjeta}>
             <Image src={props.urlsvg} width={70} height={70} alt="imagen"/>

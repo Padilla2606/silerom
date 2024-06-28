@@ -2,10 +2,14 @@
 import styles from "./Tarjeta.module.css";
 import Image from "next/image";
 
+interface Tarjetaprops{
+    urlsvg: string;
+    titulo: string;
+    parrafo: string;
+}
 
 
-
-export const Tarjeta = (props:any)=>{
+export const Tarjeta: React.FC<Tarjetaprops> = (props)=>{
     return(
         <div className={styles.Tarjeta}>
             <Image src={props.urlsvg} width={70} height={70} alt="imagen"/>

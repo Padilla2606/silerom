@@ -9,7 +9,7 @@ export const Footer = ()=>{
     return(
         <div className={styles.footer} id="pie">
             <div className={styles.redes}>
-                <a target="_blank" href="https://www.instagram.com/silerom/?igsh=YzljYTk1ODg3Zg%3D%3D"><Image className={styles.svgicon} src={"/redessociales/facebook.svg"} width={tamañosvg.width} height={tamañosvg.height} alt="svg"/></a>
+                <a target="_blank" href="https://www.facebook.com/profile.php?id=61560183749541"><Image className={styles.svgicon} src={"/redessociales/facebook.svg"} width={tamañosvg.width} height={tamañosvg.height} alt="svg"/></a>
                 <a target="_blank" href="https://www.instagram.com/silerom/?igsh=YzljYTk1ODg3Zg%3D%3D"><Image className={styles.svgicon} src={"/redessociales/instagram.svg"} width={tamañosvg.width} height={tamañosvg.height} alt="svg"/></a>
                 <a target="_blank" href="https://www.instagram.com/silerom/?igsh=YzljYTk1ODg3Zg%3D%3D"><Image className={styles.svgicon} src={"/redessociales/x.svg"} width={tamañosvg.width} height={tamañosvg.height} alt="svg"/></a>
             </div>

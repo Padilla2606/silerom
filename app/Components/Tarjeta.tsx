@@ -24,9 +24,9 @@ export const Cajatarjeta = ()=>{
         <>
             <h1 className={styles.titulo}>Por Donde Empezamos?</h1>
             <div className={styles.Cajatarjeta}>
-                <Tarjeta titulo={"Diseñamos tu Web"} parrafo={"texto de prueba texto de prueba texto de prueba texto de prueba"} urlsvg={"/Tarjeta/webdesing.svg"}/>
-                <Tarjeta titulo={"Te Hacemos Conocer"} parrafo={"texto de prueba texto de prueba texto de prueba texto de prueba"} urlsvg={"/Tarjeta/marketing.svg"}/>
-                <Tarjeta titulo={"Creamos tu Logo"} parrafo={"texto de prueba texto de prueba texto de prueba texto de prueba"} urlsvg={"/Tarjeta/diseño.svg"}/>
+                <Tarjeta titulo={"Desarrollo Web"} parrafo={"Diseños web a medida que capturan la esencia de tu negocio. Impulsa tu presencia en línea con nuestro servicio de Diseño Web creativo y funcional."} urlsvg={"/Tarjeta/webdesing.svg"}/>
+                <Tarjeta titulo={"Campañas de Publicidad"} parrafo={"Llega a tu audiencia de manera efectiva con campañas publicitarias personalizadas. Maximiza tu alcance y conversión con nuestras estrategias de Publicidad en línea."} urlsvg={"/Tarjeta/marketing.svg"}/>
+                <Tarjeta titulo={"Community Manager"} parrafo={"Gestión profesional de redes sociales para potenciar tu marca y conectar con tu audiencia. ¡Haz que tu presencia en línea destaque con nuestro servicio de Community Manager!."} urlsvg={"/Tarjeta/diseño.svg"}/>
             </div>
         </>
     )

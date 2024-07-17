@@ -14,13 +14,12 @@
 }
 
 
-.a{
+.btn{
     background-color: black;
     position: fixed;
     bottom: 8rem;
     right: 2rem;
     padding: 0.5rem;
-    border-radius: 50%;
-
+    border-radius: 10px;
 }
 

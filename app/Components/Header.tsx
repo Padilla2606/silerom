@@ -1,18 +1,18 @@
 "use client"
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import styles from "./Header.module.css";
 import Image from "next/image";
 
 
 export const Header= ()=>{
-    const [ estado, setEstado ] = useState(false);
+    const [ estado, setEstado ] = useState(true);
     
     return(
         <div id="Header" className={styles.header}>
             
 
             <nav className="nav">
-                <Image className="logo" src={"/logos/logo.svg"} width={50} height={50} alt="logo-sile"></Image>
+                <Image className="logo" src={"/logos/logo.svg"} width={175} height={175} alt="logo-sile"></Image>
                 <button onClick={()=>{
                     setEstado(!estado);
                 }} className="ham">
@@ -32,6 +32,8 @@ export const Header= ()=>{
                 <p className={styles.p}>Desarrollo Web</p>
             </div>
             <video muted autoPlay loop><source src="/vid/videofondo.mp4" type="video/mp4"></source></video>
+                
+            
         </div>
     )
 };

@@ -22,6 +22,5 @@ export default function Home() {
 </svg></a>
       <Footer/>
     </main>
-
   );
 }

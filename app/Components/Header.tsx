@@ -5,7 +5,7 @@ import Image from "next/image";
 
 
 export const Header= ()=>{
-    const [ estado, setEstado ] = useState(true);
+    const [ estado, setEstado ] = useState(false);
     
     return(
         <div id="Header" className={styles.header}>

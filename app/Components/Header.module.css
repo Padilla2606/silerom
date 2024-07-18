@@ -8,11 +8,12 @@
     width: 100%;
     height: 100vh;
     object-fit: cover;
-    z-index: -1;
+    z-index: -3;
     
 }
 
 .textpre{
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,13 +22,12 @@
     height: 100%;
     font-family: helvetica;
     position: absolute;
+    z-index: 1;
 }
 .h1{
-    z-index: 3;
     font-size: 60px;
 }
 .p{font-size: 60px;
-    z-index: 3;
     padding-bottom: 10rem;
 }
 
@@ -38,7 +38,7 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    z-index: 2;
+    z-index: -2;
 }
 
 @media  screen and ( max-width:800px ){

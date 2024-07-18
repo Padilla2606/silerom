@@ -9,17 +9,39 @@
     height: 100vh;
     object-fit: cover;
     z-index: -1;
+    
 }
 
 .textpre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    font-family: helvetica;
     position: absolute;
-    top: 30%;
-    left: 5%;
-    border-left: 2px solid;
-    padding-left: 0.5rem;
-}.h1{font-size: 40px;}.p{font-size: 20px;}
+}
+.h1{
+    z-index: 3;
+    font-size: 60px;
+}
+.p{font-size: 60px;
+    z-index: 3;
+    padding-bottom: 10rem;
+}
+
+
+
+.oscurece_video{
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
 
 @media  screen and ( max-width:800px ){
-    .h1{font-size: 25px;}
-    .p{font-size: 18px;}
+    .h1{font-size: 50px;}
+    .p{font-size: 36px; padding-bottom: 3rem;}
 }

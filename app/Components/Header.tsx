@@ -28,10 +28,14 @@ export const Header= ()=>{
 
 
             <div className={styles.textpre}>
+                <div className={styles.oscurece_video}></div>
                 <h1 className={styles.h1}>Crece con Nosotros</h1>
                 <p className={styles.p}>Desarrollo Web</p>
+                
+                
             </div>
             <video muted autoPlay loop><source src="/vid/videofondo.mp4" type="video/mp4"></source></video>
+            
                 
             
         </div>

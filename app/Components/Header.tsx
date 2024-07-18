@@ -29,8 +29,8 @@ export const Header= ()=>{
 
             <div className={styles.textpre}>
                 <div className={styles.oscurece_video}></div>
-                <h1 className={styles.h1}>Impulsamos tu Negocio</h1>
-                <p className={styles.p}>Crece con Nosotros</p>
+                <h1 className={styles.h1title}>Impulsamos tu Negocio</h1>
+                <p className={styles.ptitle}>Crece con Nosotros</p>
                 
                 
             </div>

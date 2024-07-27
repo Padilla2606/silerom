@@ -21,6 +21,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/Components/mail.service.ts", "app/Components/Formulario.tsx", "app/api/route.Js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/Components/mail.service.ts", "app/Components/Formulario.tsx", "app/api/route.Js", "app/api/email/validandoform.js"],
   "exclude": ["node_modules"]
 }

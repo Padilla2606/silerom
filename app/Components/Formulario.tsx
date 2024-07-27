@@ -15,13 +15,14 @@ export const Formulario = ()=>{
             email: `${form.get("nameemail")}`,
             mensaje: `${form.get("namemensaje")}`
         }
-        const response = await fetch("http://localhost:1337/api/auth/local/register",{
+        const response = await fetch("http://localhost:3001/api/email",{
             method:"POST",
             headers:{
                 "Content-Type":"application/json"
             },
             body:JSON.stringify(data)
         })
+        alert(`${form.get("namenombre")} tu mensaje se envio con exito`)
     }
 
     

@@ -1,9 +1,0 @@
-.contenedor{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #111111;
-    min-height: 100vh;
-}
-

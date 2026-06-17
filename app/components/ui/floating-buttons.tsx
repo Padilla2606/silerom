@@ -4,7 +4,7 @@ export const FloatingButtons = () => (
   <>
     <a
       className={styles.whatsapp}
-      href="https://wa.me/59897660555"
+      href="https://wa.me/59896238818"
       target="_blank"
       rel="noopener noreferrer"
       aria-label="WhatsApp"

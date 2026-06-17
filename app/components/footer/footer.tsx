@@ -20,6 +20,7 @@ export const Footer = () => (
     <div className={styles.info}>
       <p className={styles.brand}>Silerom - Soluciones Digitales</p>
       <p className={styles.detail}>+598 97 660555</p>
+      <p className={styles.detail}>+598 96 238818</p>
       <p className={styles.detail}>Montevideo - Uruguay</p>
     </div>
   </footer>

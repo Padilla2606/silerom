@@ -39,6 +39,7 @@
   border-radius: 50%;
   box-shadow: 0 5px 20px rgba(233, 69, 96, 0.4);
   transition: all 0.3s ease;
+  animation: fadeIn 0.3s ease-out;
 }
 
 .scrollTop:hover {
@@ -58,5 +59,16 @@
   }
   50% {
     box-shadow: 0 0 0 15px rgba(37, 211, 102, 0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }

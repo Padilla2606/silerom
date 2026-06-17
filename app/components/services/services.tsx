@@ -35,7 +35,7 @@ const services: ServiceCardProps[] = [
       "Llega a tu audiencia de manera efectiva con campañas publicitarias personalizadas. Maximiza tu alcance y conversión.",
   },
   {
-    icons: ["/Tarjeta/diseno.svg", "/Tarjeta/community.svg"],
+    icons: ["/Tarjeta/community.svg"],
     title: "Community Manager",
     description:
       "Gestión profesional de redes sociales para potenciar tu marca y conectar con tu audiencia. ¡Haz que tu presencia destaque!",

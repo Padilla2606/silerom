@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e94560;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f3460;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Speech bubble -->
+  <path d="M20 25 C20 18 27 12 35 12 L65 12 C73 12 80 18 80 25 L80 50 C80 57 73 63 65 63 L40 63 L28 75 L30 63 L35 63 C27 63 20 57 20 50 Z" fill="url(#grad1)" opacity="0.9"/>
+  <!-- People icons -->
+  <circle cx="35" cy="35" r="5" fill="white"/>
+  <circle cx="50" cy="35" r="5" fill="white"/>
+  <circle cx="65" cy="35" r="5" fill="white"/>
+  <!-- Connection lines -->
+  <line x1="40" y1="35" x2="45" y2="35" stroke="white" stroke-width="1.5" opacity="0.7"/>
+  <line x1="55" y1="35" x2="60" y2="35" stroke="white" stroke-width="1.5" opacity="0.7"/>
+  <!-- Heart/notification -->
+  <circle cx="72" cy="18" r="8" fill="#e94560"/>
+  <text x="72" y="22" text-anchor="middle" fill="white" font-size="10" font-weight="bold">3</text>
+</svg>

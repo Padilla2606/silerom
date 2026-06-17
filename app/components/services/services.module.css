@@ -71,8 +71,14 @@
     0 0 30px rgba(233, 69, 96, 0.15);
 }
 
-.cardIcon {
+.cardIcons {
+  display: flex;
+  gap: 0.75rem;
   margin-bottom: 1rem;
+  justify-content: center;
+}
+
+.cardIcon {
   filter: drop-shadow(0 0 10px rgba(233, 69, 96, 0.3));
   transition: all 0.4s ease;
 }

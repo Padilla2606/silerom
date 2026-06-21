@@ -41,7 +41,7 @@ export const Header = () => {
         <ul className={`${styles.navList} ${menuOpen ? styles.navListOpen : ""}`}>
           {[
             { href: "#services", label: "Nosotros" },
-            { href: "#contact", label: "Contactanos" },
+            { href: "https://wa.me/59896238818", label: "Contactanos" },
             { href: "#footer", label: "Social" },
           ].map((link) => (
             <li key={link.href}>
@@ -49,6 +49,8 @@ export const Header = () => {
                 className={styles.navLink}
                 href={link.href}
                 onClick={() => setMenuOpen(false)}
+                target={link.href.startsWith("http") ? "_blank" : undefined}
+                rel={link.href.startsWith("http") ? "noopener noreferrer" : undefined}
               >
                 {link.label}
               </a>

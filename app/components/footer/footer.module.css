@@ -36,14 +36,12 @@
   background: rgba(26, 26, 46, 0.6);
   border: 2px solid rgba(255, 255, 255, 0.1);
   transition: all 0.3s ease;
-  filter: grayscale(100%) brightness(200%);
 }
 
 .socialLink:hover {
   transform: translateY(-5px) scale(1.1);
   border-color: #e94560;
   box-shadow: 0 10px 30px rgba(233, 69, 96, 0.3);
-  filter: grayscale(0%) brightness(100%);
 }
 
 .info {

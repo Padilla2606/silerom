@@ -4,7 +4,7 @@ import styles from "./footer.module.css"
 const socialLinks = [
   { href: "https://www.facebook.com/profile.php?id=61560183749541", icon: "/redessociales/facebook.svg", label: "Facebook" },
   { href: "https://www.instagram.com/silerom/", icon: "/redessociales/instagram.svg", label: "Instagram" },
-  { href: "https://www.tiktok.com/@silerom.digital", icon: "/redessociales/x.svg", label: "TikTok" },
+  { href: "https://www.tiktok.com/@silerom.digital", icon: "/redessociales/tiktok.svg", label: "TikTok" },
 ]
 
 export const Footer = () => (

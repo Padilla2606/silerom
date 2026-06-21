@@ -7,7 +7,7 @@
   padding: 4rem 2rem;
 }
 
-.form {
+.card {
   padding: 3rem;
   text-align: center;
   max-width: 600px;
@@ -34,77 +34,27 @@
   line-height: 1.6;
 }
 
-.fields {
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
-  text-align: left;
-}
-
-.field {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-}
-
-.label {
-  font-size: 0.85rem;
-  font-weight: 600;
-  color: var(--text-secondary, #a0a0b0);
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
-
-.input,
-.textarea {
-  width: 100%;
-  padding: 1rem 1.25rem;
-  font-size: 1rem;
-  color: #ffffff;
-  background: rgba(10, 10, 15, 0.6);
-  border: 2px solid rgba(255, 255, 255, 0.1);
-  border-radius: 12px;
-  outline: none;
-  transition: all 0.3s ease;
-  font-family: inherit;
-}
-
-.input::placeholder,
-.textarea::placeholder {
-  color: rgba(255, 255, 255, 0.3);
-}
-
-.input:focus,
-.textarea:focus {
-  border-color: #e94560;
-  box-shadow: 0 0 20px rgba(233, 69, 96, 0.2);
-  background: rgba(10, 10, 15, 0.8);
-}
-
-.textarea {
-  min-height: 140px;
-  resize: vertical;
-}
-
-.submitBtn {
-  width: 100%;
-  padding: 1rem 2rem;
-  margin-top: 0.5rem;
+.button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1rem 2.5rem;
   font-size: 1.1rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 2px;
   color: #ffffff;
-  background: linear-gradient(135deg, #e94560 0%, #0f3460 100%);
+  background: linear-gradient(135deg, #25d366 0%, #128c7e 100%);
   border: none;
   border-radius: 12px;
   cursor: pointer;
+  text-decoration: none;
+  transition: all 0.3s ease;
   position: relative;
   overflow: hidden;
-  transition: all 0.3s ease;
 }
 
-.submitBtn::before {
+.button::before {
   content: "";
   position: absolute;
   top: 0;
@@ -115,27 +65,21 @@
   transition: left 0.5s ease;
 }
 
-.submitBtn:hover::before {
+.button:hover::before {
   left: 100%;
 }
 
-.submitBtn:hover {
+.button:hover {
   transform: translateY(-3px);
-  box-shadow: 0 10px 30px rgba(233, 69, 96, 0.4);
+  box-shadow: 0 10px 30px rgba(37, 211, 102, 0.4);
 }
 
-.submitBtn:active {
+.button:active {
   transform: translateY(-1px);
 }
 
-.submitBtn:disabled {
-  opacity: 0.7;
-  cursor: not-allowed;
-  transform: none;
-}
-
 @media screen and (max-width: 480px) {
-  .form {
+  .card {
     padding: 2rem 1.5rem;
   }
 

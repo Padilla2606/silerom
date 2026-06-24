@@ -10,22 +10,22 @@ interface PortfolioItem {
 
 const portfolio: PortfolioItem[] = [
   {
-    image: "/portfolio/proyecto1.jpg",
-    title: "E-Commerce Moda",
-    description: "Tienda online de ropa con diseño moderno y pasarela de pagos integrada.",
-    url: "https://ejemplo1.com",
+    image: "https://image.thum.io/get/width/600/crop/400/https://ecommerce-two-kappa-88.vercel.app/",
+    title: "E-Commerce",
+    description: "Tienda online de supermercado con delivery, carrito de compras y pasarela de pagos.",
+    url: "https://ecommerce-two-kappa-88.vercel.app/",
   },
   {
-    image: "/portfolio/proyecto2.jpg",
-    title: "Restaurante Gourmet",
+    image: "https://image.thum.io/get/width/600/crop/400/https://agendar-citas-blue.vercel.app/",
+    title: "Agenda de Citas",
+    description: "Sistema de agenda de citas online con selección de servicios, fechas y horarios.",
+    url: "https://agendar-citas-blue.vercel.app/",
+  },
+  {
+    image: "https://image.thum.io/get/width/600/crop/400/https://silerom-restaurant.vercel.app/",
+    title: "Restaurante",
     description: "Sitio web para restaurante con menú digital, reservas y pedidos online.",
-    url: "https://ejemplo2.com",
-  },
-  {
-    image: "/portfolio/proyecto3.jpg",
-    title: "Clínica Dental",
-    description: "Portal de pacientes con sistema de turnos online y galería de servicios.",
-    url: "https://ejemplo3.com",
+    url: "https://silerom-restaurant.vercel.app/",
   },
 ]
 
@@ -42,6 +42,7 @@ const PortfolioCard = ({ image, title, description, url }: PortfolioItem) => (
         alt={title}
         fill
         className={styles.image}
+        unoptimized
       />
       <div className={styles.overlay}>
         <span className={styles.viewLink}>Ver sitio →</span>
@@ -56,7 +57,7 @@ const PortfolioCard = ({ image, title, description, url }: PortfolioItem) => (
 
 export const Portfolio = () => (
   <section id="portfolio" className={styles.section}>
-    <h2 className={styles.sectionTitle}>Nuestros Trabajos</h2>
+    <h2 className={styles.sectionTitle}>¿Qué deseas obtener?</h2>
     <p className={styles.subtitle}>
       Ejemplos de sitios web que hemos creado para nuestros clientes
     </p>
